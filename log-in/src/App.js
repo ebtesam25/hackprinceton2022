@@ -2,6 +2,7 @@ import React from "react"
 import  "./style.css"
 import LoginButton from "./components/LoginButton"
 import LogoutButton from "./components/LogoutButton"
+import Home from "./screens/home"
 
 export default function App() {
   
@@ -13,6 +14,7 @@ export default function App() {
                 
                 <LoginButton />
                 <LogoutButton />
+                <Home/>
                 
             </form>
         </div>
